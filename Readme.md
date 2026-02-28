@@ -46,5 +46,8 @@ desdepues de compilar ejecutar: java -jar target/queueHandler-0.0.1-SNAPSHOT.jar
 *Evidencias*
 las evidencias de la compilacion del handler,de la libreria y de la ejecucion del programa se quedan dentro de la carpeta /evidencias
 
+*Decisiones Tecnicas*
+Se decidio usar dos colas internas para implementar el sistema de prioridad, ya que permite mantener el orden FIFO que se nos solicita sin utilizar estructuras JDK, y se utilizo Thread.sleep(1000) para simular la duracion real de las canciones
+
 
 
